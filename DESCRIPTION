@@ -1,0 +1,21 @@
+Package: patchseqtools
+Type: Package
+Title: QC and Cell Type Mapping for Patch-Seq data
+Version: 0.0.1
+Author: Jeremy Miller <jeremym@alleninstitute.org>
+Maintainer: Jeremy Miller <jeremym@alleninstitute.org>
+Description: This repository includes code for QC mapping and cell type assignments. Specific topics include:
+    1) Assigning quality scores to each cell (mostly wrapper functions for https://github.com/PavlidisLab/patchSeqQC)
+    2) Cell type mapping using tree mapping strategy (to be added later) 
+    3) Cell type clustering using CCA (mostly wrapper functions for https://satijalab.org/seurat/Seurat_AlignmentTutorial.html)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dendextend (>= 1.7.0),
+    gplots (>= 3.0.1),
+    pdist (>= 1.2),
+    matrixStats (>= 0.53.1),
+    Rtsne (>= 0.13),
+    ggplot2 (>= 2.2.1)
+RoxygenNote: 6.0.1
