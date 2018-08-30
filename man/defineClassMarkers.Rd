@@ -21,7 +21,7 @@ a 3 x count matrix of the top confused pairs of clusters with the three columns 
 }
 \description{
 This function identifies both on and off markers genes for classes for use with patchSeqQC library.
-'On markers, are genes that are highly expressed in the cell type of interest with enriched expression 
-relative to other cell types. The second class, Off markers, are expected to be expressed at low levels 
+'On markers, are genes that are highly expressed in the cell type of interest with enriched expression
+relative to other cell types. The second class, Off markers, are expected to be expressed at low levels
 in a given patch-seq cell type.'  Note that these markers are based on a relevant reference data set.
 }
