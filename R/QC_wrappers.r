@@ -26,7 +26,7 @@ defineClassMarkers <- function(datRef, onClasses,
     return("Error: onClasses is the wrong length.")
 
   offClasses <- factor(offClasses)
-  onClasses <- factor(anumMarkersoFACs2$subclass_label)
+  onClasses  <- factor(onClasses)
   names(onClasses) <- names(offClasses) <- samples
 
   # Caclulate proportionsa and medians
