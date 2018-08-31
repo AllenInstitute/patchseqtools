@@ -85,7 +85,6 @@ defineClassMarkers <- function(datRef, onClasses,
 
 
 
-
 #' Calculate PatchSeq QC Metrics
 #'
 #' This function identifies is the same as calculatePatchSeqQCMetrics from patchSeqQC, except that it
@@ -96,6 +95,7 @@ defineClassMarkers <- function(datRef, onClasses,
 #'   meta-data for patch-seq data (e.g., the data data set for QCing)
 #' @param facs_df an equivalent matrix of reference data
 #' @param markers a list of marker genes (calculated using defineClassMarkers)
+#' @param includeTypes a vector of types to include from the 
 #'
 #' @return a table containing all of the qc metrics:
 #' sample_id: name of the samples.
@@ -135,6 +135,9 @@ calculatePatchSeqQCMetrics2 <- function(pat_df, facs_df,
   
   dataset_cell_types = unique(pat_df$major_type) %>% 
     as.character()
+  includeTypes = names(markers)[substr(names(markers), 
+    nchar(names(markers)) - 2, nchar(names(markers))) != 
+    "_on"]
   marker_sums = lapply(dataset_cell_types, function(cell_type) {
     curr_marker_type = pat_df[pat_df$major_type == 
       cell_type, "major_type"][1] %>% as.character
@@ -145,9 +148,8 @@ calculatePatchSeqQCMetrics2 <- function(pat_df, facs_df,
     df = pat_df[cell_inds, ]
     rownames(df) = df$sample_id
     marker_expr = sumExpression(df, curr_marker_list)
-    compare_cell_types = setdiff(c("Astro", "Macrophage", 
-      "Endo", "Oligo", "Peri", "SMC", "VLMC", 
-      "Glutamatergic", "GABAergic"), cell_type)
+    compare_cell_types = setdiff(includeTypes, 
+      cell_type)
     
     mks <- markers[c(curr_marker_type, compare_cell_types)] %>% 
       unlist %>% unique

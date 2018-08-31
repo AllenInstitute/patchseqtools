@@ -4,9 +4,9 @@
 \alias{compareClusterCalls}
 \title{Compare two cluster sets matched to CCA}
 \usage{
-compareClusterCalls(FACs_Patch_cca, plot.title = NA, plot.silent = TRUE,
-  heat.colors = colorRampPalette(c("grey99", "orange", "red"))(100),
-  row.cl.num = min(length(unique(cl)), length(unique(ref.cl))))
+compareClusterCalls(cl, ref.cl, cl.anno, plot.title = NA,
+  plot.silent = TRUE, heat.colors = colorRampPalette(c("grey99", "orange",
+  "red"))(100), row.cl.num = min(length(unique(cl)), length(unique(ref.cl))))
 }
 \arguments{
 \item{cl}{a matrix (rows=genes x columns=samples) of gene expression data (e.g., scRNA-seq)}

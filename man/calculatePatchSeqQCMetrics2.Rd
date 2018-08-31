@@ -13,6 +13,8 @@ meta-data for patch-seq data (e.g., the data data set for QCing)}
 \item{facs_df}{an equivalent matrix of reference data}
 
 \item{markers}{a list of marker genes (calculated using defineClassMarkers)}
+
+\item{includeTypes}{a vector of types to include from the}
 }
 \value{
 a table containing all of the qc metrics:
