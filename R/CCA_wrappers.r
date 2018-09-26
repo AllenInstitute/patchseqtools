@@ -7,6 +7,7 @@
 #'
 #' @return a reordered matrix
 #'
+#' @export
 reorder_matrix <- function(matrix1, by.rows = TRUE) {
   if (by.rows == TRUE) {
     conf.order <- order(apply(matrix1, 1, which.max))
@@ -29,6 +30,7 @@ reorder_matrix <- function(matrix1, by.rows = TRUE) {
 #'
 #' @return a reordered matrix
 #'
+#' @export
 compareClusterCalls <- function(cl, ref.cl, cl.anno,
                               plot.title = NA, plot.silent = TRUE,
                               heat.colors = colorRampPalette(c("grey99", "orange", "red"))(100),
@@ -72,6 +74,7 @@ compareClusterCalls <- function(cl, ref.cl, cl.anno,
 #'
 #' @return a data frame of statistics
 #'
+#' @export
 summarySE <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
                       conf.interval=.95, .drop=TRUE, roundall = F) {
   require(dplyr)
@@ -123,6 +126,7 @@ summarySE <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
 #'
 #' @return the plot is returned
 #'
+#' @export
 qcPlot <- function(anno,dendcluster_anno,name,scaleLimits = c(-5000, 12000),
                    scaleBreaks = seq(0, 12000, 2000),
                    scaleLabels = seq(0,12,2),
