@@ -7,21 +7,27 @@
 defineClassMarkers(datRef, onClasses, offClasses, numMarkers = 50)
 }
 \arguments{
-\item{datRef}{a matrix (rows=genes x columns=samples) of gene expression data (e.g., scRNA-seq)}
+\item{datRef}{a matrix (rows=genes x columns=samples) of gene expression data
+(e.g., scRNA-seq)}
 
-\item{onClasses}{a character (or factor) vector indicated the on class for each sample in datRef}
+\item{onClasses}{a character (or factor) vector indicated the on class for each
+sample in datRef}
 
-\item{offClasses}{a character (or factor) vector indicated the off class for each sample in datRef}
+\item{offClasses}{a character (or factor) vector indicated the off class for
+each sample in datRef}
 
 \item{numMarkers}{number of markers per class to return (default = 50)}
 }
 \value{
-a 3 x count matrix of the top confused pairs of clusters with the three columns corresponding
-  to mapped cluster, assigned cluster, and fraction of cells incorrectly mapped, respectively.
+a 3 x count matrix of the top confused pairs of clusters with the three
+  columns corresponding to mapped cluster, assigned cluster, and fraction of
+  cells incorrectly mapped, respectively.
 }
 \description{
-This function identifies both on and off markers genes for classes for use with patchSeqQC library.
-'On markers, are genes that are highly expressed in the cell type of interest with enriched expression
-relative to other cell types. The second class, Off markers, are expected to be expressed at low levels
-in a given patch-seq cell type.'  Note that these markers are based on a relevant reference data set.
+This function identifies both on and off markers genes for classes for use
+  with patchSeqQC library. 'On markers, are genes that are highly expressed
+  in the cell type of interest with enriched expression relative to other cell
+  types. The second class, Off markers, are expected to be expressed at low levels
+  in a given patch-seq cell type.'  Note that these markers are based on a relevant
+  reference data set.
 }

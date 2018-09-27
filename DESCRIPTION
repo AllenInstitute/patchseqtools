@@ -18,4 +18,4 @@ Imports:
     matrixStats (>= 0.53.1),
     Rtsne (>= 0.13),
     ggplot2 (>= 2.2.1)
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0

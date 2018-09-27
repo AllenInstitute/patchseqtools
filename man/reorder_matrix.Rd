@@ -7,7 +7,8 @@
 reorder_matrix(matrix1, by.rows = TRUE)
 }
 \arguments{
-\item{matrix1}{a matrix (rows=genes x columns=samples) of gene expression data (e.g., scRNA-seq)}
+\item{matrix1}{a matrix (rows=genes x columns=samples) of gene expression data
+(e.g., scRNA-seq)}
 
 \item{by.rows}{By rows (TRUE; default) or by columns}
 }

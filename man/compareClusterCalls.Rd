@@ -5,11 +5,13 @@
 \title{Compare two cluster sets matched to CCA}
 \usage{
 compareClusterCalls(cl, ref.cl, cl.anno, plot.title = NA,
-  plot.silent = TRUE, heat.colors = colorRampPalette(c("grey99", "orange",
-  "red"))(100), row.cl.num = min(length(unique(cl)), length(unique(ref.cl))))
+  plot.silent = TRUE, heat.colors = colorRampPalette(c("grey99",
+  "orange", "red"))(100), row.cl.num = min(length(unique(cl)),
+  length(unique(ref.cl))))
 }
 \arguments{
-\item{cl}{a matrix (rows=genes x columns=samples) of gene expression data (e.g., scRNA-seq)}
+\item{cl}{a matrix (rows=genes x columns=samples) of gene expression data
+(e.g., scRNA-seq)}
 
 \item{by.rows}{By rows (TRUE; default) or by columns}
 }
@@ -17,6 +19,6 @@ compareClusterCalls(cl, ref.cl, cl.anno, plot.title = NA,
 a reordered matrix
 }
 \description{
-This function takes cluster calls defined in two different data sets and then determines to what
-extent these cluster calls match up with cluster calls from CCA.
+This function takes cluster calls defined in two different data sets and then
+determines to what extent these cluster calls match up with cluster calls from CCA.
 }

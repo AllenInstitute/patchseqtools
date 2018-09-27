@@ -7,28 +7,35 @@
 calculatePatchSeqQCMetrics2(pat_df, facs_df, markers)
 }
 \arguments{
-\item{pat_df}{a matrix (rows=samples x columns=genes + meta-data) of gene expression data and
-meta-data for patch-seq data (e.g., the data data set for QCing)}
+\item{pat_df}{a matrix (rows=samples x columns=genes + meta-data) of gene expression
+data and meta-data for patch-seq data (e.g., the data data set for QCing)}
 
 \item{facs_df}{an equivalent matrix of reference data}
 
 \item{markers}{a list of marker genes (calculated using defineClassMarkers)}
-
-\item{includeTypes}{a vector of types to include from the}
 }
 \value{
 a table containing all of the qc metrics:
 sample_id: name of the samples.
 major_type: cell type identities (provided by Cadwell2016)
 contam_type: cell type identities (normalized to cell type names in markers)
-marker_sum: Summed expression of 'On' cell type marker genes (with cell type defined by contam_type)
-marker_sum_norm: Normalized summed expression of 'on'-type marker genes, normalized to median expression of same cell type in dissociated-cell reference data
-contam_sum: Contamination score, defined as the sum of normalized expression across all 'off' cell types defined in compare_cell_types_inh
-quality_score: Quality score, defined as the Spearman correlation of marker expression between markers expressed in single cell with mean expression of markers in dissociated cell reference data
-This function also outputs normalized expression of each 'off'-cell type (defined in compare_cell_types_inh) and we can use the function plotContamHeatmap to show these (each column is one single cell)
+marker_sum: Summed expression of 'On' cell type marker genes (with cell type
+  defined by contam_type)
+marker_sum_norm: Normalized summed expression of 'on'-type marker genes,
+  normalized to median expression of same cell type in dissociated-cell
+  reference data
+contam_sum: Contamination score, defined as the sum of normalized expression
+  across all 'off' cell types defined in compare_cell_types_inh
+quality_score: Quality score, defined as the Spearman correlation of marker
+  expression between markers expressed in single cell with mean expression
+  of markers in dissociated cell reference data
+This function also outputs normalized expression of each 'off'-cell type
+  (defined in compare_cell_types_inh) and we can use the function
+  plotContamHeatmap to show these (each column is one single cell)
 }
 \description{
-This function identifies is the same as calculatePatchSeqQCMetrics from patchSeqQC, except that it
-allows for any user-inputted comparison data set, and fixes some other errors.  Importantly, it
-outputs the same quality score, marker sum, and contamination score.
+This function identifies is the same as calculatePatchSeqQCMetrics from
+  patchSeqQC, except that it allows for any user-inputted comparison data set,
+  and fixes some other errors.  Importantly, it outputs the same quality score,
+  marker sum, and contamination score.
 }

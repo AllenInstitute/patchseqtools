@@ -6,8 +6,8 @@
 \usage{
 qcPlot(anno, dendcluster_anno, name, scaleLimits = c(-5000, 12000),
   scaleBreaks = seq(0, 12000, 2000), scaleLabels = seq(0, 12, 2),
-  ylab = "value", fileName = gsub("\\\\.", "_", gsub("_label", "", name)),
-  outputFolder)
+  ylab = "value", fileName = gsub("\\\\.", "_", gsub("_label", "",
+  name)), outputFolder)
 }
 \arguments{
 \item{anno}{Annotation data frame for patch-seq}
