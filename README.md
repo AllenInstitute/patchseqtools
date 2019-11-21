@@ -12,7 +12,7 @@ License: What license is it under?
 
 Install using:
 ```
-devtools::install_github("AllenInstitute/patchseqtools",auth_token="802976690281f1483c40de46d0a07e9d01a3de08")
+devtools::install_github("AllenInstitute/patchseqtools",auth_token="fce326351de6aead543ad48739c039f52474c433")
 ```
 
 
