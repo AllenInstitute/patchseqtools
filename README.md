@@ -4,13 +4,12 @@ R functions for gene selection and analysis of Patch-seq data.
   
 `patchseqtools` includes several functions that are used for quality control and cell typing of Patch-seq cells at the Allen Institute.  Many of these functions are wrappers for functions from other libraries (see below) and we enourage proper citation of relevant tools when using those functions.  
 
-Specific topics include:  
-    1) Assigning quality scores to each cell (mostly wrapper functions for https://github.com/PavlidisLab/patchSeqQC)  
-    2) Cell type mapping using tree mapping strategy (to be added later)  
-    3) Cell type clustering using CCA (mostly wrapper functions for https://satijalab.org/seurat/Seurat_AlignmentTutorial.html)  
-License: What license is it under?
-
-
+**Specific topics include:**  
+1. Assigning quality scores to each cell (mostly wrapper functions for https://github.com/PavlidisLab/patchSeqQC)  
+2. Cell type mapping using tree mapping strategy (to be added later)  
+3. Cell type clustering using CCA (mostly wrapper functions for https://satijalab.org/seurat/Seurat_AlignmentTutorial.html)  
+  
+ 
 ## Installation
 
 ```
