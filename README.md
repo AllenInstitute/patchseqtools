@@ -1,8 +1,8 @@
 # patchseqtools
   
-R functions for gene selection and analysis of patch-seq data.  
+R functions for gene selection and analysis of Patch-seq data.  
   
-patchseqtools includes many functions that are used for QC and cell typing of patch-seq cells.  
+`patchseqtools` includes several functions that are used for quality control and cell typing of Patch-seq cells at the Allen Institute.  Many of these functions are wrappers for functions from other libraries (see below) and we enourage proper citation of relevant tools when using those functions.  
 
 Specific topics include:  
     1) Assigning quality scores to each cell (mostly wrapper functions for https://github.com/PavlidisLab/patchSeqQC)  
@@ -10,9 +10,26 @@ Specific topics include:
     3) Cell type clustering using CCA (mostly wrapper functions for https://satijalab.org/seurat/Seurat_AlignmentTutorial.html)  
 License: What license is it under?
 
-Install using:
+
+## Installation
+
 ```
-devtools::install_github("AllenInstitute/patchseqtools",auth_token="fce326351de6aead543ad48739c039f52474c433")
+devtools::install_github("AllenInstitute/patchseqtools")
 ```
 
+## Library use cases
+
+No vignettes currently available.  
+
+## License
+
+The license for this package is available on Github at: https://github.com/AllenInstitute/patchseqtools/blob/master/LICENSE
+
+## Level of Support
+
+We are not planning to update this library unless bugs are found.  However, we welcome community input through both issues and pull requests.  
+
+## Contribution Agreement
+
+If you contribute code to this repository through pull requests or other mechanisms, you are subject to the Allen Institute Contribution Agreement, which is available in full at: https://github.com/AllenInstitute/patchseqtools/blob/master/CONTRIBUTION
 
