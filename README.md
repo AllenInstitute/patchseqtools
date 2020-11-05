@@ -6,8 +6,7 @@ R functions for gene selection and analysis of Patch-seq data.
 
 **Specific topics include:**  
 1. Assigning quality scores to each cell (mostly wrapper functions for https://github.com/PavlidisLab/patchSeqQC)  
-2. Cell type mapping using tree mapping strategy (to be added later)  
-3. Cell type clustering using CCA (mostly wrapper functions for https://satijalab.org/seurat/Seurat_AlignmentTutorial.html)  
+2. Cell type clustering using CCA (mostly wrapper functions for https://satijalab.org/seurat/Seurat_AlignmentTutorial.html)  
   
  
 ## Installation
@@ -26,7 +25,7 @@ The license for this package is available on Github at: https://github.com/Allen
 
 ## Level of Support
 
-We are not planning to update this library unless bugs are found.  However, we welcome community input through both issues and pull requests.  
+We are not planning to update the R library component of this repo unless bugs are found.  We may make occasional updates to other components of the repository with no fixed schedule.  However, we welcome community input through both issues and pull requests.
 
 ## Contribution Agreement
 
