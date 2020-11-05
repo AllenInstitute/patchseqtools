@@ -1,4 +1,6 @@
-# patchseqtools
+# Allen Institute Patch-seq documents and tool
+
+## patchseqtools
   
 R functions for gene selection and analysis of Patch-seq data.  
   
