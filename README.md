@@ -1,6 +1,9 @@
 # Allen Institute Patch-seq documents and tools
 ## Patch-seq detailed protocol on protocols.io
-dx.doi.org/10.17504/protocols.io.bpbuminw
+ dx.doi.org/10.17504/protocols.io.bpbuminw
+
+## High fidelity electrophysiological, morphological, and transcriptomic cell characterization using a refined Patch-seq protocol
+https://doi.org/10.1101/2020.11.04.369082
 
 ## patchseqtools
   
