@@ -5,17 +5,22 @@ https://doi.org/10.17504/protocols.io.bpbuminw
 ## High fidelity electrophysiological, morphological, and transcriptomic cell characterization using a refined Patch-seq protocol
 https://doi.org/10.1101/2020.11.04.369082
 
+## Metadata for manuscript##
+
 ## Multichannel Igor Electrophysiology Suite (MIES) Github repo
 https://github.com/AllenInstitute/MIES
 
 ## Allen Institute Patch-seq papers
 Mouse Visual Cortex https://doi.org/10.1101/2020.02.03.932244
+
 Human L2/3 - https://doi.org/10.1101/2020.03.31.018820
 
 ## Allen Institute cell types web products
 Morpho-Electric database http://celltypes.brain-map.org/
+
 Single-cell RNA-seq database https://portal.brain-map.org/atlases-and-data/rnaseq
-Patch-Seq database *coming soon*
+
+Patch-Seq database *Coming soon*
 
 ## Patch-seq tools
   
