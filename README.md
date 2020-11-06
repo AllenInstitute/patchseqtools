@@ -1,4 +1,6 @@
-# Allen Institute Patch-seq documents and tool
+# Allen Institute Patch-seq documents and tools
+## Patch-seq detailed protocol on protocols.io
+dx.doi.org/10.17504/protocols.io.bpbuminw
 
 ## patchseqtools
   
