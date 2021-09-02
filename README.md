@@ -2,7 +2,7 @@
 Patch-seq is powerful technique that allows for multimodal characterization of individual neurons – electrophysiological, morphological and transcriptomic. At the Allen Institute we have optimized this technique to efficiently collect high-quality data. On this GitHub repo we provide links to the manuscript describing this optimized technique and associated data, a detailed protocol, Allen Institute manuscripts that have utilized this technique, and links to Allen Institute resources and software. In addition, this repo includes an R package of [Patch-seq tools](https://github.com/AllenInstitute/patchseqtools#patch-seq-tools) for quality control and cell typing of Patch-seq cells.
 
 ## Patch-seq detailed protocol on protocols.io
-https://doi.org/10.17504/protocols.io.bpbuminw
+https://www.protocols.io/view/patch-seq-recording-and-extraction-detailed-protoc-bw6gphbw
 
 ## Scaled, high fidelity electrophysiological, morphological, and transcriptomic cell characterization
 https://doi.org/10.1101/2020.11.04.369082
