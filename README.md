@@ -5,15 +5,15 @@ Patch-seq is powerful technique that allows for multimodal characterization of i
 https://www.protocols.io/view/patch-seq-recording-and-extraction-detailed-protoc-bw6gphbw
 
 ## Scaled, high fidelity electrophysiological, morphological, and transcriptomic cell characterization
-https://doi.org/10.1101/2020.11.04.369082
+https://elifesciences.org/articles/65482
 
 ## Multichannel Igor Electrophysiology Suite (MIES) Github repo
 https://github.com/AllenInstitute/MIES
 
 ## Allen Institute Patch-seq papers
-Mouse Visual Cortex https://doi.org/10.1101/2020.02.03.932244
+Mouse Visual Cortex https://www.sciencedirect.com/science/article/pii/S009286742031254X
 
-Human L2/3 - https://doi.org/10.1101/2020.03.31.018820
+Human L2/3 - https://www.nature.com/articles/s41586-021-03813-8
 
 ## Allen Institute cell types web products
 Morpho-Electric database http://celltypes.brain-map.org/
