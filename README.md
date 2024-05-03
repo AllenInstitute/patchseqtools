@@ -20,7 +20,7 @@ Morpho-Electric database http://celltypes.brain-map.org/
 
 Single-cell RNA-seq database https://portal.brain-map.org/atlases-and-data/rnaseq
 
-Patch-Seq database *Coming soon*
+Patch-Seq database of cells in mouse VISp **[is now available on Allen Brain Map](https://knowledge.brain-map.org/data/1HEYEW7GMUKWIQW37BO/specimens)**.
 
 ## Patch-seq tools
   
